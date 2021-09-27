@@ -33,7 +33,7 @@ Clicar em "Checkout" para finalizar a compra
 
 Preencher os dados: PRIMEIRO NOME (FIRST NAME), SOBRENOME (LAST NAME) E CEP (POSTAL CODE)
   Input Text        ${FIRSTNAME}      Fernanda
-  Input Text        ${LASTNAME}       Cademartori
+  Input Text        ${LASTNAME}       Rodrigues
   Input Text        ${POSTALCODE}     58807-633
 
 Clicar no botão "CONTINUE"
