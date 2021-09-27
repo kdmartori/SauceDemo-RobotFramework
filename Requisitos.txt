@@ -1,0 +1,16 @@
+##############################################################################################################################
+# Este é o script de instalação do Robot Framework e a biblioteca Selenium2Library, necessários para rodar este teste de exemplo.
+# Para rodar este script:
+
+#   ./requisitos
+#
+# Componentes:
+#
+#  robotframework                    - O Robot Framework, que será usado para rodar este teste automatizado
+#  robotframework-seleniumlibrary    - A biblioteca do Selenium2Library para o Robot Framework
+#
+#  IMPORTANTE: O Python deve estar devidamente apontado e adicionado às variáveis de ambiente do seu Sistema Operacional
+##############################################################################################################################
+
+pip install robotframework
+pip install robotframework-seleniumlibrary
