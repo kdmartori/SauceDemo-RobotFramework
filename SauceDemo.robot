@@ -1,10 +1,11 @@
 *** Settings ***
 Library                         SeleniumLibrary
 Test Teardown                   Close Browser
-Resource                        ./Keywords.robot
+Resource                        ./SauceDemo.resource
+
 
 *** Test Cases ***
-[Finalizando uma compra com usuário comum]
+[TESTE 01 - Finalizando uma compra com usuário comum]
   Fazer login no site com o usuário "standard_user"
   Acessar os detalhes do produto "Sauce Labs Backpack"
   Adicionar o produto "Sauce Labs Backpack" ao carrinho de compras
